@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.056" tests="7" failures="5">
+  <testsuite name="Root Suite" timestamp="2024-07-21T02:14:25" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="express_authorization_middleware" timestamp="2024-07-21T02:14:25" tests="7" file="/Users/fajartrip-m1-14/Documents/Work/exploration/backend/ac94d5cf-fb2b-4fab-84b1-a5357c33e609/test/index.spec.js" time="10.054" failures="5">
+    <testcase name="express_authorization_middleware Should send a 403 if the x-role header is not present" time="0.010" classname="Should send a 403 if the x-role header is not present">
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 200 for a non-protected route" time="2.006" classname="Should send a 200 for a non-protected route">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/ac94d5cf-fb2b-4fab-84b1-a5357c33e609/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/ac94d5cf-fb2b-4fab-84b1-a5357c33e609/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)]]></failure>
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 403 if the x-role value is invalid" time="2.002" classname="Should send a 403 if the x-role value is invalid">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/ac94d5cf-fb2b-4fab-84b1-a5357c33e609/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/ac94d5cf-fb2b-4fab-84b1-a5357c33e609/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)]]></failure>
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 403 if the x-role value does not have access to route" time="2.002" classname="Should send a 403 if the x-role value does not have access to route">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/ac94d5cf-fb2b-4fab-84b1-a5357c33e609/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/ac94d5cf-fb2b-4fab-84b1-a5357c33e609/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)]]></failure>
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 201 if the x-role value has access to route" time="2.001" classname="Should send a 201 if the x-role value has access to route">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/ac94d5cf-fb2b-4fab-84b1-a5357c33e609/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/ac94d5cf-fb2b-4fab-84b1-a5357c33e609/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)]]></failure>
+    </testcase>
+    <testcase name="express_authorization_middleware Should validate header for protected routes" time="2.001" classname="Should validate header for protected routes">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/ac94d5cf-fb2b-4fab-84b1-a5357c33e609/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/ac94d5cf-fb2b-4fab-84b1-a5357c33e609/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)]]></failure>
+    </testcase>
+    <testcase name="express_authorization_middleware Should not require auth headers for unprotected routes" time="0.020" classname="Should not require auth headers for unprotected routes">
+    </testcase>
+  </testsuite>
+</testsuites>
