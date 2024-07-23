@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.022" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-07-20T14:31:49" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="express_recipes_routes" timestamp="2024-07-20T14:31:49" tests="2" file="/Users/fajartrip-m1-14/Documents/Work/exploration/backend/3b4bfab5-38c0-4276-9adf-f1853be074ae/test/index.spec.js" time="2.021" failures="1">
+    <testcase name="express_recipes_routes Should return 400 for /recipes/step/:id if id is not valid" time="0.013" classname="Should return 400 for /recipes/step/:id if id is not valid">
+    </testcase>
+    <testcase name="express_recipes_routes Should respond with 0 if elapsed time is 0" time="2.001" classname="Should respond with 0 if elapsed time is 0">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/3b4bfab5-38c0-4276-9adf-f1853be074ae/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/fajartrip-m1-14/Documents/Work/exploration/backend/3b4bfab5-38c0-4276-9adf-f1853be074ae/test/index.spec.js)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
